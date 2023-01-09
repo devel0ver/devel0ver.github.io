@@ -1,0 +1,17 @@
+body{
+    background-image: url(imgs/beans.jpeg);
+    display: block;
+    margin: 8px;
+}
+
+.menu{
+    width: 80%;
+    margin: auto;
+    background-color: #deb887;
+    padding: 20px;
+    max-width: 500px;
+}
+
+h1{
+    text-align: center;
+}

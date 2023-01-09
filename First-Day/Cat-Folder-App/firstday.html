@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>CatPhotoApp</h1>
+        <h2>Cat Photos</h2>
+        <p>See more <a href="#">cat photos</a> in our gallery</p>
+        <a href="#"><img src="imgs/relaxing-cat.jpeg" alt="relaxing cat"></a>
+    </section>
+
+    <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <figure>
+            <img src="imgs/lasagna.jpeg" alt="Lasagna">
+            <figcaption>Cats <em>Love</em> lasagna.</figcaption>
+        </figure>
+        <h3>Things cats hate:</h3>
+        <ol>
+            <li>Flea treatment</li>
+            <li>Thunder</li>
+            <li>Other cats</li>
+        </ol>
+        <figure>
+            <img src="imgs/cats.jpeg" alt="Cats">
+            <figcaption>Cats <strong>hate</strong> other cats!</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Cat Form</h2>
+        <form action="file:///Users/sahmed/Desktop/CS/ART2700/First-Day/submitted.html">
+            <fieldset>
+                <legend>Is your an indoor or outdoor cat?</legend>
+                <label for="indoor">
+                    <input type="radio" id="indoor" name="door" value="outdoor" checked>
+                    Indoor
+                </label>
+                <label for="outdoor">
+                    <input type="radio" id="outdoor" name="door" value="indoor">
+                    Outdoor
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <label for="Loving">
+                    <input type="checkbox" id="Loving" name="personality" checked>
+                    Loving
+                </label>
+                <label for="Lazy">
+                    <input type="checkbox" id="Lazy" name="personality">
+                    Lazy
+                </label>
+                <label for="Energetic">
+                    <input type="checkbox" id="Energetic" name="personality">
+                    Energetic
+                </label>
+            </fieldset>
+            <div style="margin-top:10px;">
+                <input type="text" name="catPhotoUrl" placeholder="cat photo URL" required>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <p>No Copyright - <a href="#">freeCodeCamp.org</a></p>
+</body>
+</html>
